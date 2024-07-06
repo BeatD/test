@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="shortcut icon" href="./Data/LogoNav.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat
+    </title>
+</head>
+<body>
+    <img height="360px" src="./Data/MainLogo.png" alt="This browser maybe does not support this image format ?">
+    
+    
+    <script src="./Animation/js.js"></script>
+    
+    <div class="box">
+        <p style="text-align: center;">
+            <button class="BtnPlay" onclick="animation()">
+                <div id="go">
+                    GO !
+                </div>
+            </button>
+            <br>
+            <br>
+            <button class="BtnPlay" onclick="set.showModal()">
+                Informations
+            </button>
+        </p>    
+    </div>
+    
+    <dialog id="set" class="BtnPlay">
+    <button class="BtnPlay" onclick="set.close()">
+        X
+    </button>
+        <p>
+            Le jeu est toujours en developement, les des fautes d'aurtographes seront presentes anisin que des "bug" si c'est le cas (il y en aura) veuillez les reporter a littlemand915@gmail.com, Merci - Ahmed
+        </p>
+    </dialog>
+</body>
+</html>
